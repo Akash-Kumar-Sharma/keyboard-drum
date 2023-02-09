@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    
+}
+#kb-container{
+ display: flex;
+ box-sizing: border-box;
+ justify-content: center;
+ /*justify-content: space-around;*/
+ 
+ flex-direction: row;
+ margin-top: 30%;
+ margin-left: 48px;
+ margin-right: 48px;
+}
+.keyBTN{
+    color: white;
+    margin: 12px;
+    background-image: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    width: 12vh;
+    padding: 10px;
+    font-size: 28px;
+    line-height: 1.5;
+    border: 2px solid lightcoral;
+}
+.keyname{
+    color: yellow;
+    font-size: 18px;
+}
